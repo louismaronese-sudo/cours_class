@@ -1,6 +1,4 @@
-class Rectangle:
-    def __init__(self, length, width, color="red"):
-        self.length = length
-        self.width = width
-        self.color = color
-        
+from solutions.mes_class_sousclass import *
+
+film1 = Film("The Matrix",'1999')
+film1.watch()
