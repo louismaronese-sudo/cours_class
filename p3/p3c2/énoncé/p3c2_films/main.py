@@ -11,11 +11,11 @@ def main():
     """Code client."""
     library = Library()
 
-    films = library.films
+    mesfilm = library.films
     friends = FriendCleaner().list_from_data(library)
 
     print("Tous mes films:")
-    pprint(films)
+    pprint(mesfilm)
     print()
     print("Tous mes amis:")
     pprint(friends)
@@ -23,7 +23,7 @@ def main():
 
     library.sort_by_type()
     print("Mes films triés par type:")
-    pprint(films)
+    pprint(mesfilm)
     print()
 
     film = library.get_random_choice()

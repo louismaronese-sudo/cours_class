@@ -12,3 +12,5 @@ class User:
     def send(self, message):
         """Envoie un message via le système de contact de l'utilisateur."""
         self.contact_method.send(message)
+
+    
